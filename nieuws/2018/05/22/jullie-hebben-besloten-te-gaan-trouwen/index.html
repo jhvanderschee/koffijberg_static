@@ -5,10 +5,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="language" content="NL">
-  <title>Inschrijven nieuwsbrief | Kapper Koffijberg Hairdressers in Amsterdam</title>
-  <meta name="description" content="Vul hieronder uw e-mailadres in om niets te missen!">
+  <title>Jullie hebben besloten te gaan trouwen! | Kapper Koffijberg Hairdressers in Amsterdam</title>
+  <meta name="description" content="De grote dag voor hem en voor haar">
   <meta id="viewport" name="viewport" content="width=device-width">
-  <link rel="canonical" href="http://www.koffijberg.nl/contact/nieuwsbrief/">
+  <link rel="canonical" href="http://www.koffijberg.nl/nieuws/2018/05/22/jullie-hebben-besloten-te-gaan-trouwen/">
 
     <link rel="shortcut icon" type="image/png" href="/img/icon-196x196.png">
     <link rel="shortcut icon" sizes="196x196" href="/img/icon-196x196.png">
@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="/css/combined.css">
   <link rel="stylesheet" href="/css/style.css">
 
-  <meta property="og:image" content="http://www.koffijberg.nl/img/kapper-amsterdam-dames1.jpg"/>
+  <meta property="og:image" content="http://www.koffijberg.nl/uploads/brit-voor-spiegel.jpg"/>
 
   <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700' rel='stylesheet' type='text/css'>
@@ -39,7 +39,7 @@ function setimage() {
     document.getElementById('image').src = '//images.weserv.nl/?url=www.koffijberg.nl'+url+'&w=1000&h=1000';
 }
 function closeimage() {
-    document.location.href = '/contact/nieuwsbrief/index.html';
+    document.location.href = '/nieuws/2018/05/22/jullie-hebben-besloten-te-gaan-trouwen/';
 }
 
 function goNext(e) {
@@ -62,7 +62,7 @@ function goNext(e) {
     }
     if(current<(imgArray.length-1)) next = (current+1);
     else next = 0;
-    window.location = '/contact/nieuwsbrief/index.html?url='+imgArray[next];
+    window.location = '/nieuws/2018/05/22/jullie-hebben-besloten-te-gaan-trouwen/?url='+imgArray[next];
 }
 function goPrev(e) {
     if (!e)
@@ -84,7 +84,7 @@ function goPrev(e) {
     }    
     if(current>0) prev = (current-1);
     else prev = (imgArray.length-1);
-    window.location = '/contact/nieuwsbrief/index.html?url='+imgArray[prev];
+    window.location = '/nieuws/2018/05/22/jullie-hebben-besloten-te-gaan-trouwen/?url='+imgArray[prev];
 }
 
 	</script>
@@ -128,65 +128,7 @@ src="https://www.facebook.com/tr?id=1393366147405131&ev=PageView&noscript=1"
 fbq('track', 'ViewContent');
 </script>
 
-  <body class="page-template contact">
-        <style type="text/css">
-            /* Set a size for our map container, the Google Map will take up 100% of this container */
-            #mapcontainer {height: 240px; overflow: hidden;}
-            #mapoverlay, #map {
-                margin-top: 76px;
-                width: 100%;
-                height: 164px;
-                background: #e5e3df;
-            }
-            #mapoverlay {position: absolute; top: 0; left: 0; background:transparent}
-        </style>
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-        
-        <script type="text/javascript">
-            // When the window has finished loading create our google map below
-            google.maps.event.addDomListener(window, 'load', init);
-        
-            function init() {
-                // Basic options for a simple Google Map
-                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-                var mapOptions = {
-                    // How zoomed in you want the map to start at (always required)
-                    zoom: 16,
-
-                    // The latitude and longitude to center the map (always required)
-                    center: new google.maps.LatLng(52.347790, 4.890939), // New York
-
-                    // How you would like to style the map. 
-                    // This is where you would paste any style found on Snazzy Maps.
-                    styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}],
-
-                    // All of the below are set to true by default, so simply remove if set to true:
-                    panControl:false, // Set to false to disable
-                    mapTypeControl:false, // Disable Map/Satellite switch
-                    scaleControl:false, // Set to false to hide scale
-                    streetViewControl:false, // Set to disable to hide street view
-                    overviewMapControl:false, // Set to false to remove overview control
-                    rotateControl:false // Set to false to disable rotate control
-                };
-
-                // Get the HTML DOM element that will contain your map 
-                // We are using a div with id="map" seen below in the <body>
-                var mapElement = document.getElementById('map');
-
-                // Create the Google Map using our element and options defined above
-                var map = new google.maps.Map(mapElement, mapOptions);
-
-                // Let's also add a marker while we're at it
-                var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(52.347790, 4.890939),
-                    map: map,
-                    title: 'Koffijberg Hairdressers'
-                });
-            }
-
-
-        </script>
-
+  <body class="page-template post">
 	  <div id="wrapall">
 <script>
 if(getParameterByName('url')) {
@@ -239,68 +181,110 @@ if(getParameterByName('url')) {
       </nav>
 </header>
 
-    
-    
-
-<!-- The element that will contain our Google Map. This is used in both the Javascript and CSS above. -->
-    <div id="mapcontainer"><div id="map"></div><div id="mapoverlay" style="cursor: pointer;" onclick="window.open('https://www.google.nl/maps/place/Scheldestraat+8,+1078+GK+Amsterdam/@52.3477901,4.8887502');"></div></div>
+    <div class="salon2"></div>
 
     <div class="twocols">
       <div class="container">
       <article class="">
         <div class="row">
-            <div class="col-sm-7 col-md-9 col-lg-8">
+            <div class="col-sm-12 col-md-12 col-lg-12">
                         <header class="post-header">
-                          <h1 class="post-title">Inschrijven nieuwsbrief</h1>
+                          <span><!-- Whitespace added for readability -->
+                          22
+                          
+                          mei
+                            
+                          2018
+                          </span>
+                          <h1 class="post-title">Jullie hebben besloten te gaan trouwen!</h1>
                         </header>
             </div>
-            <div class="col-sm-7 col-md-9 col-lg-8">
+            <div class="col-sm-12 col-md-9 col-lg-8">
                                              
                         <div class="post-content">
-                        <p>Vul hieronder uw e-mailadres in om niets te missen!</p>
+                          <p>De grote dag voor hem en voor haar</p>
+
+<p>Eindelijk is het zover: Jullie hebben besloten te gaan trouwen!</p>
+
+<p>Vooraf moet je heel veel regelen: Een perfecte locatie, de gastenlijst, het chicste pak en de mooiste jurk. Het zijn nog maar een paar zaken uit een lange lijst. Op deze to-do lijst mag je kapsel niet ontbreken. Want net zoals jullie mooiste dag, vergt een trouwkapsel ook de juiste voorbereiding. Zowel voor hem als voor haar.</p>
+
+<p><img src="/uploads/bruiloft-britt-kapper-actie-kimm.jpg" alt="" /></p>
+
+<p>Om jullie een beetje op weg te helpen, hierbij mijn tips en tricks:</p>
+
+<p><strong>Zeker doen!</strong></p>
+
+<p><strong>Dames</strong></p>
+
+<p>·         Maak een moodboard van kapsels die je mooi vindt. Dit is een goede basis om samen met je kapper richting te geven aan je droomkapsel.</p>
+
+<p>·         Plan samen met je kapper een moment voor een proefkapsel. Dan kan je beoordelen of je gekozen kapsel ook past bij je verwachtingen. En voor je kapper is het fijn om alvast te kunnen timen hoeveel tijd hij of zij moet uittrekken om dit kapsel te maken. Je trouwdag is strak gepland en je wilt voorkomen dat die dag bij de kapper al met vertraging begint!</p>
+
+<p>·         Zorg dat je jurk en je haar een totaal vormen. Als het goed is, versterken ze elkaar! Is je jurk bijvoorbeeld heel uitgesproken en ‘gebeurt’ er veel op je jurk, dan is het verstandig om je haar wat ingetogener te laten zijn. En  omgekeerd: Is je jurk heel minimalistisch, dan kan je goed voor een uitgesproken kapsel kiezen. Laat je kapper daarom ook foto’s van je jurk zien!</p>
+
+<p>·         Sta open voor verrassingen: Soms is een kapsel waar je al je hele leven van droomt niet het juiste kapsel voor jou. Niet getreurd, je kapper weet je zeker te verrassen met opties waar je nog niet over had nagedacht.</p>
+
+<p><img src="/uploads/bruidegom-bruiloft-kapper-amsterdam.jpg" alt="" /></p>
+
+<p><strong>Heren</strong></p>
+
+<p>Als je denkt dat de voorpret van mooi haar alleen voor de bruid is weggelegd, heb je ’t mis! Aan jouw kapsel wordt tegenwoordig minstens zoveel aandacht besteed. En hoe fijn is het mannen, dat jullie nu ook heerlijk in de watten worden gelegd!</p>
+
+<p>·         Zorg ervoor dat je kapper een model in je haar knipt, dat je zelf gemakkelijk in model kunt brengen. Niets zo frustrerend als een kapsel dat niet goed wil zitten op de dag van je leven.</p>
+
+<p>·         Nodig je kapper bij je thuis uit. Ook voor jou is het prettig om je haar tiptop gestyled te hebben.</p>
+
+<p>·         Tip van de fotograaf: gebruik een stylingsproduct zonder al te veel glans. Glans kan nadelig werken op je trouwfoto’s door weerkaatsing van licht.</p>
+
+<p><strong>Niet doen!</strong></p>
+
+<p>Er zijn ook een paar dingen die je beter kunt laten. Zo wil je niet het risico lopen om voor het altaar (of ergens anders) met een ander kapsel of een andere kleur te verschijnen dan je voor ogen had.</p>
+
+<p><strong>Dames</strong></p>
+
+<p>·         Te vet haar op je trouwdag kan je kapsel erg beïnvloeden. Was het haar uiterlijk één dag van tevoren en gebruik niet te veel conditioner. Zo kan je kapper of kapster gemakkelijker jouw ideale kapsel maken.</p>
+
+<p>·         Ga niet voor een last-minute kleur. Stel je kleurbehandelingen niet uit tot het laatste moment. Zorg er liever voor dat er minimaal twee weken tussen de kleuring en de bruiloft zitten. Zo voorkom je dat je haar er ‘té gekleurd’ uitziet. En mocht de gekozen kleur toch niet helemaal naar wens zijn, dan is er nog tijd om dit te herstellen.</p>
+
+<p>·         Het knippen van je haar kun je het beste een maand voor de bruiloft doen. Op die manier heeft je haar tegen de dag van je huwelijk weer een natuurlijke valling.</p>
+
+<p><img src="/uploads/bruiloft-britt-kapper-actie-fohn.jpg" alt="" /></p>
+
+<p> <strong>Heren</strong></p>
+
+<p>·         Laat je haar nooit een paar dagen voor de bruiloft knippen. Anders ziet je haar er ‘té geknipt’ uit. Probeer een week of twee van tevoren je haar te laten knippen en ga twee dagen voor je bruiloft nog even bij je kapper langs om je contouren en nekharen strak te maken.</p>
+
+<p>·         Wijk niet te veel af van je gewoonlijke look. Anders voel je je misschien ongemakkelijk of niet jezelf. De dag is al spannend genoeg!</p>
+
+<p><img src="/uploads/bruiloft-kapper-heren-amsterdam-2.jpg" alt="" /></p>
+
+<p>En het allerbelangrijkst: Geniet enorm van de mooie dag die komen gaat en alles wat erbij komt kijken. Hij is zo snel voorbij. En zeg nou zelf, als jij als bruid of bruidegom de sterren van de hemel straalt, dan kan die mooie dag niet meer stuk. Veel geluk samen!</p>
+
+<p>Groet Peter</p>
 
 
-                        
-                        
-                            <!-- Begin MailChimp Signup Form -->
-                            <div id="mc_embed_signup">
-                            <form action="//koffijberg.us11.list-manage.com/subscribe/post?u=e5e5f3db5bb0c7d4ac2121980&amp;id=97edcd9980" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                                <div id="mc_embed_signup_scroll">
-                            	
-                            <div class="mc-field-group form-group">
-                            	E-mailadres<br />
-                            	<input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL">
-                            </div>
-                            	<div id="mce-responses" class="clear">
-                            		<div class="response" id="mce-error-response" style="display:none"></div>
-                            		<div class="response" id="mce-success-response" style="display:none"></div>
-                            	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e5e5f3db5bb0c7d4ac2121980_97edcd9980" tabindex="-1" value=""></div>
-                                <div class="clear"><input type="submit" value="Inschrijven" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary button"></div>
-                                </div>
-                            </form>
-                            </div>
-                            
-                            <!--End mc_embed_signup-->
-                            
-                            
-                        
-                        
+<div id="not_sharethis" class="post">
+  <h3>Deel dit via:</h3>
+    <div class="facebook"><div><i class="fa icon-facebook" onclick="window.open('http://www.facebook.com/share.php?u=http://www.koffijberg.nl/nieuws/2018/05/22/jullie-hebben-besloten-te-gaan-trouwen/');"></i></div></div>
+    <div class="twitter"><div><i class="fa icon-twitter" onclick="window.open('http://twitter.com/home?status=http://www.koffijberg.nl/nieuws/2018/05/22/jullie-hebben-besloten-te-gaan-trouwen/');"></i></div></div>
+    <div class="linkedin"><div><i class="fa icon-linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=www.koffijberg.nl/nieuws/2018/05/22/jullie-hebben-besloten-te-gaan-trouwen/&title=&summary=&source=');"></i></div></div>
+    <div class="pinterest"><div><i class="fa icon-pinterest" onclick="window.open('https://pinterest.com/pin/create/button/?url=&media=http%3A//www.koffijberg.nl/uploads/brit-voor-spiegel.jpg&description=');"></i></div></div>
+    <div class="gplus"><div><i class="fa icon-gplus" onclick="window.open('https://plus.google.com/share?url=www.koffijberg.nl/nieuws/2018/05/22/jullie-hebben-besloten-te-gaan-trouwen/');"></i></div></div>
+    <div class="mail"><div><i class="fa icon-mail-alt" style="font-size: 19px;" onclick="window.open('mailto:?&body=http%3A//www.koffijberg.nl/nieuws/2018/05/22/jullie-hebben-besloten-te-gaan-trouwen/');"></i></div></div>
+</div>
                         </div>
 
             </div>
             <div class="col-lg-1"></div>
-            <div class="hidden-xs col-sm-4 col-md-3 col-lg-3">                         
+            <div class="hidden-xs hidden-sm col-md-3 col-lg-3">                         
                         <div class="post-content">
-                              <p class="sidebar" style="float: right;">Koffijberg Hairdressers<br />
+                              <div></div><p class="sidebar" style="float: right; margin-top: 7px;">Koffijberg Hairdressers<br />
 Scheldestraat 8<br />
 1078 GK Amsterdam<br />
 <a href="tel:020-6732374" class="mobile">020-6732374</a><span class="desktop">020-6732374</span><br />
 <a href="mailto:receptie@koffijberg.nl">receptie@koffijberg.nl</a><br />
 KVK 33145461<br />
 BTW NL820928367B01</p>
-
-                              
                         </div>
             </div>
           </div>
@@ -358,12 +342,12 @@ BTW NL820928367B01</p></div>
 </footer>
 <!--
 <div id="not_sharethis">
-    <div class="facebook" onclick="window.open('http://www.facebook.com/share.php?u=http://www.koffijberg.nl/contact/nieuwsbrief/index.html');"><div><i class="fa icon-facebook"></i></div> Delen</div>
-    <div class="twitter" onclick="window.open('http://twitter.com/home?status=http://www.koffijberg.nl/contact/nieuwsbrief/index.html');"><div><i class="fa icon-twitter"></i></div> Delen</div>
-    <div class="linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=www.koffijberg.nl/contact/nieuwsbrief/index.html&title=&summary=&source=');"><div><i class="fa icon-linkedin"></i></div> Delen</div>
-    
-    <div class="gplus" onclick="window.open('https://plus.google.com/share?url=www.koffijberg.nl/contact/nieuwsbrief/index.html');"><div><i class="fa icon-gplus"></i></div> Delen</div>
-    <div class="mail" onclick="window.open('mailto:?&body=http%3A//www.koffijberg.nl/contact/nieuwsbrief/index.html');"><div><i class="fa icon-mail-alt" style="font-size: 19px;"></i></div> Delen</div>
+    <div class="facebook" onclick="window.open('http://www.facebook.com/share.php?u=http://www.koffijberg.nl/nieuws/2018/05/22/jullie-hebben-besloten-te-gaan-trouwen/');"><div><i class="fa icon-facebook"></i></div> Delen</div>
+    <div class="twitter" onclick="window.open('http://twitter.com/home?status=http://www.koffijberg.nl/nieuws/2018/05/22/jullie-hebben-besloten-te-gaan-trouwen/');"><div><i class="fa icon-twitter"></i></div> Delen</div>
+    <div class="linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=www.koffijberg.nl/nieuws/2018/05/22/jullie-hebben-besloten-te-gaan-trouwen/&title=&summary=&source=');"><div><i class="fa icon-linkedin"></i></div> Delen</div>
+    <div class="pinterest"onclick="window.open('https://pinterest.com/pin/create/button/?url=&media=http%3A//www.koffijberg.nl/uploads/brit-voor-spiegel.jpg&description=');"><div><i class="fa icon-pinterest"></i></div> Delen</div>
+    <div class="gplus" onclick="window.open('https://plus.google.com/share?url=www.koffijberg.nl/nieuws/2018/05/22/jullie-hebben-besloten-te-gaan-trouwen/');"><div><i class="fa icon-gplus"></i></div> Delen</div>
+    <div class="mail" onclick="window.open('mailto:?&body=http%3A//www.koffijberg.nl/nieuws/2018/05/22/jullie-hebben-besloten-te-gaan-trouwen/');"><div><i class="fa icon-mail-alt" style="font-size: 19px;"></i></div> Delen</div>
 </div>
 -->
 <div id="not_sharethis" class="follow">
@@ -438,44 +422,6 @@ yt_url2embed();
 fNewPDFWindows()
 externalLinks();
     </script>
-
-    
-
-
-
-    <!-- Google Code for Whatsapp Conversion Page
-    In your html page, add the snippet and call
-    goog_report_conversion when someone clicks on the
-    phone number link or button. -->
-    <script type="text/javascript">
-    /* <![CDATA[ */
-    goog_snippet_vars = function() {
-      var w = window;
-      w.google_conversion_id = 825871743;
-      w.google_conversion_label = "IRJiCKuAzX8Q_5rniQM";
-      w.google_remarketing_only = false;
-    }
-    // DO NOT CHANGE THE CODE BELOW.
-    goog_report_conversion = function(url) {
-      goog_snippet_vars();
-      window.google_conversion_format = "3";
-      var opt = new Object();
-      opt.onload_callback = function() {
-      if (typeof(url) != 'undefined') {
-        window.location = url;
-      }
-    }
-    var conv_handler = window['google_trackConversion'];
-    if (typeof(conv_handler) == 'function') {
-      conv_handler(opt);
-    }
-   }
-   /* ]]> */
-   </script>
-   <script type="text/javascript"
-    src="//www.googleadservices.com/pagead/conversion_async.js">
-   </script>
-
 
   </body>
 
