@@ -1195,7 +1195,63 @@
   
     
       <url>
+        <loc>https://www.koffijberg.nl/over-ons/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+    
+      <url>
+        <loc>https://www.koffijberg.nl/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+    
+      <url>
         <loc>https://www.koffijberg.nl/disclaimer/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+    
+      <url>
+        <loc>https://www.koffijberg.nl/contact/bedankt/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+    
+      <url>
+        <loc>https://www.koffijberg.nl/copyright/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+    
+      <url>
+        <loc>https://www.koffijberg.nl/contact/nieuwsbrief/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+    
+      <url>
+        <loc>https://www.koffijberg.nl/privacy/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+       </url>
+    
+  
+    
+      <url>
+        <loc>https://www.koffijberg.nl/contact/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
        </url>
@@ -1220,62 +1276,6 @@
     
       <url>
         <loc>https://www.koffijberg.nl/collecties/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-       </url>
-    
-  
-    
-      <url>
-        <loc>https://www.koffijberg.nl/privacy/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-       </url>
-    
-  
-    
-      <url>
-        <loc>https://www.koffijberg.nl/copyright/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-       </url>
-    
-  
-    
-      <url>
-        <loc>https://www.koffijberg.nl/contact/nieuwsbrief/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-       </url>
-    
-  
-    
-      <url>
-        <loc>https://www.koffijberg.nl/contact/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-       </url>
-    
-  
-    
-      <url>
-        <loc>https://www.koffijberg.nl/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-       </url>
-    
-  
-    
-      <url>
-        <loc>https://www.koffijberg.nl/contact/bedankt/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-       </url>
-    
-  
-    
-      <url>
-        <loc>https://www.koffijberg.nl/over-ons/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
        </url>
