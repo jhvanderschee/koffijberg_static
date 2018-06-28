@@ -510,7 +510,7 @@ body.iOS .salon3 {
 
 .salon2 {
   height: 502px;
-  background: url("../img/website-actie-foto-kapper-amsterdam-large.jpg") center center no-repeat;
+  background: url("../img/website-actie-foto-kapper-amsterdam-large.jpg") center 15% no-repeat;
   background-size: cover;
   background-attachment: fixed; }
 
