@@ -76,12 +76,6 @@ function goNext(e) {
     }
     var current,next;
     var imgArray = new Array();
-    imgArray[0] = '/img/blowdryarea-1.jpg';
-    imgArray[1] = '/img/blowdryarea-2.jpg';
-    imgArray[2] = '/img/blowdryarea-3.jpg';
-    imgArray[3] = '/img/blowdryarea-4.jpg';
-    imgArray[4] = '/img/blowdryarea-5.jpg';
-    imgArray[5] = '/img/blowdryarea-6.jpg';
     
     for (i = 0; i < imgArray.length; i++) { 
         if(getParameterByName('url')==imgArray[i]) current = i;
@@ -104,12 +98,6 @@ function goPrev(e) {
     }
     var current,prev;
     var imgArray = new Array();
-    imgArray[0] = '/img/blowdryarea-1.jpg';
-    imgArray[1] = '/img/blowdryarea-2.jpg';
-    imgArray[2] = '/img/blowdryarea-3.jpg';
-    imgArray[3] = '/img/blowdryarea-4.jpg';
-    imgArray[4] = '/img/blowdryarea-5.jpg';
-    imgArray[5] = '/img/blowdryarea-6.jpg';
     
     for (i = 0; i < imgArray.length; i++) { 
         if(getParameterByName('url')==imgArray[i]) current = i;
@@ -160,7 +148,7 @@ src="https://www.facebook.com/tr?id=1393366147405131&ev=PageView&noscript=1"
 fbq('track', 'ViewContent');
 </script>
 
-  <body id="body" class="page-template post" onload="if(getParameterByName('url')) setimage('url'); ">
+  <body id="body" class="page-template post" onload="if(getParameterByName('url')) setimage('url'); document.getElementById('controls').style.display='none';">
 	  <div id="wrapall">
 <script>
 if(getParameterByName('url')) {
@@ -229,70 +217,6 @@ if(getParameterByName('url')) {
                                              
             
             
-              
-                
-                <div class="row" id="gallery">
-                
-                <div class="col-xs-3">
-                    <a href="/behandelingen/blow-dry/?url=/img/blowdryarea-1.jpg" class="img"><img src="//images.weserv.nl/?url=www.koffijberg.nl/img/blowdryarea-1.jpg&w=200&h=200&t=square&a=top" /></a>
-                </div>
-                
-                
-              
-            
-              
-                
-                
-                
-                <div class="col-xs-3">
-                    <a href="/behandelingen/blow-dry/?url=/img/blowdryarea-2.jpg" class="img"><img src="//images.weserv.nl/?url=www.koffijberg.nl/img/blowdryarea-2.jpg&w=200&h=200&t=square&a=top" /></a>
-                </div>
-                
-                
-              
-            
-              
-                
-                
-                
-                <div class="col-xs-3">
-                    <a href="/behandelingen/blow-dry/?url=/img/blowdryarea-3.jpg" class="img"><img src="//images.weserv.nl/?url=www.koffijberg.nl/img/blowdryarea-3.jpg&w=200&h=200&t=square&a=top" /></a>
-                </div>
-                
-                
-              
-            
-              
-                
-                
-                
-                <div class="col-xs-3">
-                    <a href="/behandelingen/blow-dry/?url=/img/blowdryarea-4.jpg" class="img"><img src="//images.weserv.nl/?url=www.koffijberg.nl/img/blowdryarea-4.jpg&w=200&h=200&t=square&a=top" /></a>
-                </div>
-                
-                
-              
-            
-              
-                
-                
-                
-                <div class="col-xs-3">
-                    <a href="/behandelingen/blow-dry/?url=/img/blowdryarea-5.jpg" class="img"><img src="//images.weserv.nl/?url=www.koffijberg.nl/img/blowdryarea-5.jpg&w=200&h=200&t=square&a=top" /></a>
-                </div>
-                
-                
-              
-            
-              
-                
-                
-                
-                <div class="col-xs-3">
-                    <a href="/behandelingen/blow-dry/?url=/img/blowdryarea-6.jpg" class="img"><img src="//images.weserv.nl/?url=www.koffijberg.nl/img/blowdryarea-6.jpg&w=200&h=200&t=square&a=top" /></a>
-                </div>
-                
-                </div>
               
             
                         <div class="post-content">
