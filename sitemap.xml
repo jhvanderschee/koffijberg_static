@@ -1112,12 +1112,6 @@
     </url>
   
     <url>
-      <loc>https://www.koffijberg.nl/team/no%C3%ABlla/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.7</priority>
-    </url>
-  
-    <url>
       <loc>https://www.koffijberg.nl/team/philine/</loc>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
@@ -1131,6 +1125,12 @@
   
     <url>
       <loc>https://www.koffijberg.nl/team/sabine/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>https://www.koffijberg.nl/team/valerie/</loc>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
