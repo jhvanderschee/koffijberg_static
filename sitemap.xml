@@ -1134,6 +1134,12 @@
     </url>
   
     <url>
+      <loc>https://www.koffijberg.nl/team/maxime/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
       <loc>https://www.koffijberg.nl/team/philine/</loc>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
