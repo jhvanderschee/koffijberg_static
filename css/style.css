@@ -212,7 +212,7 @@ body.iOS .salon3 {
 
 #popup div.popupcontent {
   color: #241a1f;
-  padding: 55px 0 20px 5px; }
+  padding: 55px 20px 20px 20px; }
 
 #popup div.popupcontent.large_text {
   line-height: 1.3em;
