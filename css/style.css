@@ -46,12 +46,15 @@ html * {
 img {
   max-width: 100%; }
 
+b, strong {
+  font-weight: 600; }
+
 html {
   overflow-y: scroll; }
 
 body {
   color: white;
-  background: #3b2c33;
+  background: #444444;
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight: 700;
   font-size: 17px;
@@ -70,7 +73,7 @@ body.iOS .salon3 {
   margin-bottom: 0.5em;
   margin-top: 0px;
   line-height: 1.1;
-  color: #241a1f; }
+  color: #222222; }
 
 #splash {
   display: none;
@@ -110,7 +113,7 @@ body.iOS .salon3 {
   text-decoration: underline; }
 
 .visualnews h3 a {
-  color: #241a1f; }
+  color: #222222; }
 
 .visualnews .btn-primary {
   color: white !important;
@@ -118,11 +121,11 @@ body.iOS .salon3 {
   background: #5e2d83 !important; }
 
 .visualnews .btn-primary:hover {
-  border: 1px solid #241a1f !important;
-  background: #241a1f !important; }
+  border: 1px solid #222222 !important;
+  background: #222222 !important; }
 
 .visualnews a.btn-default {
-  color: #241a1f; }
+  color: #222222; }
 
 .visualnews a.btn-default:hover, .visualnews a.btn-default:focus {
   color: white; }
@@ -151,14 +154,14 @@ body.iOS .salon3 {
     column-count: 1; } }
 #newsarchive h2 {
   padding-top: 50px;
-  color: #241a1f;
+  color: #222222;
   text-transform: uppercase;
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight: 700;
   font-size: 35px; }
 
 #newsarchive, #newsarchive a {
-  color: #666; }
+  color: #333; }
 
 #popup {
   display: none;
@@ -211,7 +214,7 @@ body.iOS .salon3 {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); }
 
 #popup div.popupcontent {
-  color: #241a1f;
+  color: #222222;
   padding: 55px 20px 20px 20px; }
 
 #popup div.popupcontent.large_text {
@@ -277,7 +280,7 @@ body.iOS .salon3 {
   right: 0; }
 
 #not_sharethis div {
-  background: #241a1f;
+  background: #222222;
   text-align: left;
   width: 90px;
   height: 40px;
@@ -352,17 +355,17 @@ body.iOS .salon3 {
 #likeournews input[type='submit'] {
   vertical-align: top;
   display: inline-block;
-  background: #241a1f !important;
-  border: 1px solid #241a1f !important; }
+  background: #222222 !important;
+  border: 1px solid #222222 !important; }
 
 #likeournews input[type='submit']:hover {
   background: #5e2d83 !important;
   border: 1px solid white !important; }
 
 #likeournews input[type='email'] {
-  font-size: 15px;
+  font-size: 16px;
   background: white;
-  color: #241a1f;
+  color: #222222;
   vertical-align: top;
   height: 38px;
   display: inline-block;
@@ -374,13 +377,13 @@ body.iOS .salon3 {
 
 .intro {
   height: 800px;
-  color: #444; }
+  color: #222; }
 
 .intro .btn:hover {
-  color: #241a1f; }
+  color: #222222; }
 
 .intro .btn, .intro h1 {
-  color: #241a1f; }
+  color: #222222; }
 
 .intro .btn-primary {
   color: white; }
@@ -450,19 +453,19 @@ body.iOS .salon3 {
   text-align: center;
   padding: 90px 0;
   background: white;
-  color: #241a1f; }
+  color: #222222; }
 
 .about .post-content {
   font-size: 18px;
   line-height: 1.9em; }
 
 .about .post-content p {
-  color: #666; }
+  color: #333; }
 
 .about .post-header span {
-  font-size: 22px;
+  font-size: 23px;
   text-transform: uppercase;
-  font-weight: 400; }
+  font-weight: 300; }
 
 .about .post-header h1 {
   font-size: 60px;
@@ -473,7 +476,7 @@ body.iOS .salon3 {
   content: "";
   width: 80px;
   height: 5px;
-  background: #241a1f;
+  background: #222222;
   margin: 30px auto !important; }
 
 .salon {
@@ -485,7 +488,7 @@ body.iOS .salon3 {
 .salon .circle {
   text-align: center;
   background: white;
-  color: #241a1f;
+  color: #222222;
   height: 450px;
   width: 450px;
   margin: 25px 0 0 -225px;
@@ -519,7 +522,7 @@ body.iOS .salon3 {
   line-height: 1.9em; }
 
 .salon .post-content p {
-  color: #666; }
+  color: #333; }
 
 .salon2 {
   height: 502px;
@@ -544,15 +547,15 @@ body.iOS .salon3 {
 .twocols {
   padding: 0 0 90px;
   background: white;
-  color: #241a1f; }
+  color: #222222; }
 
 .twocols .post-content p {
-  color: #666;
+  color: #333;
   padding-right: 30px; }
 
 .twocols .post-content table {
-  color: #666;
-  margin-bottom: 2em; }
+  color: #333;
+  margin-bottom: 1.8em; }
 
 .twocols .post-content td {
   padding-right: 30px; }
@@ -570,38 +573,40 @@ body.iOS .salon3 {
   margin-top: 5px; }
 
 .post .twocols .post-header span {
-  font-size: 22px;
+  font-size: 23px;
   text-transform: uppercase;
-  font-weight: 400; }
+  font-weight: 300; }
 
 .post .twocols .post-header h1::after {
   display: block;
   content: "";
   width: 80px;
   height: 5px;
-  background: #241a1f;
+  background: #222222;
   margin: 30px 0; }
 
 .post .twocols .post-content p:first-child {
-  font-size: 22px;
+  font-size: 23px;
   line-height: 1.7em;
   font-style: italic;
-  font-family: 'PT Serif', serif;
+  font-family: 'Jost';
   margin-bottom: 1.3em;
-  font-weight: 400; }
+  font-weight: 300; }
 
 .behandelingen {
   padding: 90px 0;
   background: white;
-  color: #241a1f; }
+  color: #222222; }
 
 .behandelingen .post-content p {
-  color: #666;
+  color: #333;
   margin-bottom: 0; }
 
 .behandelingen .post-content p.smaller {
   font-size: 12px;
-  line-height: 1.7em; }
+  line-height: 1.7em;
+  font-weight: 400;
+  color: #666; }
 
 .behandelingen .expand1 {
   display: none; }
@@ -612,11 +617,11 @@ body.iOS .salon3 {
 
 .behandelingen table {
   width: 100%;
-  color: #666; }
+  color: #333; }
 
 .behandelingen td {
   padding: 3px 0;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.7em; }
 
 .behandelingen td.text-center {
@@ -625,21 +630,22 @@ body.iOS .salon3 {
 
 .behandelingen td a {
   text-decoration: none;
-  color: #666; }
+  color: #333; }
 
 footer p {
   margin: 0;
-  font-family: 'PT Serif', serif;
-  font-weight: 400;
+  font-family: 'Jost';
+  font-weight: 300;
   font-size: 15px;
-  line-height: 2em; }
+  line-height: 1.8em; }
 
 footer a, footer a:hover, footer a:focus {
-  color: white; }
+  color: white;
+  text-decoration: none; }
 
 .site-footer {
   padding: 0 0 90px;
-  background: #241a1f;
+  background: #222222;
   color: white; }
 
 .site-footer .row > div {
@@ -681,12 +687,12 @@ footer a, footer a:hover, footer a:focus {
   opacity: 1;
   text-decoration: none;
   border-top: 3px solid transparent;
-  color: #241a1f;
+  color: #222222;
   margin: 20px 0 25px 30px;
   padding: 4px 0; }
 
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
-  border-top: 3px solid #241a1f; }
+  border-top: 3px solid #222222; }
 
 .navbar-collapse {
   -webkit-box-shadow: none;
@@ -697,11 +703,11 @@ footer a, footer a:hover, footer a:focus {
   margin-bottom: 22px; }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #241a1f; }
+  background-color: #222222; }
 
 .page-template .navbar-default .navbar-toggle .icon-bar,
 .navbar-default.attop .navbar-toggle .icon-bar {
-  background-color: #241a1f; }
+  background-color: #222222; }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
   background-color: transparent;
@@ -737,17 +743,17 @@ footer a, footer a:hover, footer a:focus {
 .navbar-default.attop .navbar-nav > li > a:focus, .navbar-default.attop .navbar-nav > li > a:hover, .navbar-default.attop .navbar-brand, .navbar-default.attop .navbar-nav > li > a,
 .page-template .navbar-default .navbar-brand:focus, .page-template .navbar-default .navbar-brand:hover,
 .page-template .navbar-default .navbar-nav > li > a:focus, .page-template .navbar-default .navbar-nav > li > a:hover, .page-template .navbar-default .navbar-brand, .page-template .navbar-default .navbar-nav > li > a {
-  color: #241a1f; }
+  color: #222222; }
 
 .navbar-default.attop .navbar-nav > li > a:hover, .page-template .navbar-default .navbar-nav > li > a:hover {
-  border-color: #241a1f; }
+  border-color: #222222; }
 
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
   margin-left: 0px !important; }
 
 .navmenu-default {
   border: 0;
-  background-color: #241a1f;
+  background-color: #222222;
   border-color: transparent; }
 
 .navmenu-default .navmenu-nav > li > a {
@@ -793,19 +799,19 @@ h3 {
   text-transform: uppercase; }
 
 p {
-  margin-bottom: 2em; }
+  margin-bottom: 1.8em; }
 
 .post-content h2 {
   margin-bottom: 0;
   margin-top: 25px;
-  color: #666;
-  font-family: 'PT Serif', serif;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 2em; }
+  color: #333;
+  font-family: 'Jost';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.8em; }
 
 .post-content h2 em {
-  font-size: 22px;
+  font-size: 23px;
   line-height: 1.25em;
   padding: 10px 0 5px;
   font-style: normal;
@@ -813,15 +819,15 @@ p {
 
 .post-content ul,
 .post-content ol {
-  margin-bottom: 2em;
-  color: #666; }
+  margin-bottom: 1.8em;
+  color: #333; }
 
 .featured-image img {
   margin-top: 10px;
   max-width: 100%; }
 
 .post-content p a {
-  color: #666; }
+  color: #333; }
 
 a {
   text-decoration: underline; }
@@ -830,10 +836,10 @@ a:hover {
   text-decoration: none; }
 
 .post-content {
-  font-family: 'PT Serif', serif;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 2em; }
+  font-family: 'Jost';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.8em; }
 
 .btn {
   color: white;
@@ -854,9 +860,9 @@ a:hover {
 
 .btn-default:active:hover, .btn-default:focus, .btn-default:hover, .btn-default {
   opacity: 1;
-  border: 1px solid #241a1f !important;
+  border: 1px solid #222222 !important;
   background: transparent;
-  color: #241a1f;
+  color: #222222;
   -webkit-box-shadow: none;
   box-shadow: none; }
 
@@ -866,8 +872,8 @@ a:hover {
 
 .btn-primary:active:hover, .btn-primary:focus, .btn-primary:hover, .btn-primary {
   opacity: 1;
-  border: 1px solid #241a1f !important;
-  background: #241a1f;
+  border: 1px solid #222222 !important;
+  background: #222222;
   color: white;
   -webkit-box-shadow: none;
   box-shadow: none; }
@@ -888,8 +894,8 @@ a:hover {
   background: #5e2d83 !important; }
 
 .intro .btn-primary, .intro .btn-default:hover {
-  border: 1px solid #241a1f !important;
-  background: #241a1f !important; }
+  border: 1px solid #222222 !important;
+  background: #222222 !important; }
 
 .fa {
   font-size: 180%;
@@ -900,7 +906,7 @@ a:hover {
   top: 3px; }
 
 .form-group {
-  color: #666; }
+  color: #333; }
 
 .btn:active {
   -webkit-box-shadow: none;
@@ -930,7 +936,7 @@ a:hover {
 .team {
   padding: 90px 0;
   text-align: center;
-  background: #3b2c33; }
+  background: #444444; }
 
 .teamcontrol {
   font-size: 20px;
@@ -1002,7 +1008,7 @@ a:hover {
   border-radius: 50%;
   position: relative;
   cursor: pointer;
-  box-shadow: inset 0 0 0 0 #241a1f, inset 0 0 0 16px rgba(64, 55, 50, 0.2);
+  box-shadow: inset 0 0 0 0 #222222, inset 0 0 0 16px rgba(55, 55, 55, 0.2);
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
@@ -1050,8 +1056,8 @@ a:hover {
   font-size: 12px;
   line-height: 1.6em;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
-  font-family: 'PT Serif', serif;
-  font-weight: 400; }
+  font-family: 'Jost';
+  font-weight: 300; }
 
 .ch-info p a {
   display: block;
@@ -1068,7 +1074,7 @@ a:hover {
 
 .ch-item:hover {
   opacity: 1;
-  box-shadow: inset 0 0 0 110px #241a1f, inset 0 0 0 16px black; }
+  box-shadow: inset 0 0 0 110px #222222, inset 0 0 0 16px black; }
 
 .ch-item:hover .ch-info {
   opacity: 1;
@@ -1177,7 +1183,7 @@ label {
   line-height: 50px;
   margin-left: 2.5vw;
   font-size: 20px;
-  font-weight: 400; }
+  font-weight: 300; }
 
 #controls {
   height: 50px;
@@ -1243,7 +1249,7 @@ blockquote p {
 .nieuws_date {
   border-top: 1px dotted silver;
   color: silver;
-  line-height: 2.2em;
+  line-height: 2.1 0.8em;
   padding-bottom: 50px; }
 
 .visualnieuws_date .fa, .nieuws_date .fa {
@@ -1257,12 +1263,12 @@ blockquote p {
   text-align: center;
   padding: 0 0 90px;
   background: white;
-  color: #241a1f; }
+  color: #222222; }
 
 #instagram .post-header span {
-  font-size: 22px;
+  font-size: 23px;
   text-transform: uppercase;
-  font-weight: 400; }
+  font-weight: 300; }
 
 #instagram .post-header h2 {
   font-size: 60px;
@@ -1284,7 +1290,7 @@ blockquote p {
     padding-right: 0px; } }
 @media all and (max-width: 767px) {
   .navbar-default .navbar-collapse {
-    background: #241a1f;
+    background: #222222;
     border: none; }
 
   .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
@@ -1307,9 +1313,6 @@ blockquote p {
   .desktop {
     display: none; } }
 @media all and (max-width: 450px) {
-  p, .post-content {
-    font-family: Georgia, "PT Serif" !important; }
-
   #popup div.popupcontent p {
     font-family: "PT Sans Narrow", sans-serif !important; }
 
