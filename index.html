@@ -149,7 +149,7 @@ src="https://www.facebook.com/tr?id=1393366147405131&ev=PageView&noscript=1"
 fbq('track', 'ViewContent');
 </script>
 
-  <body class="home" id="top">
+  <body class="home " id="top">
   <div id="splash"><table cellpadding="0" cellspacing="0"><tr><td><img src="/img/koffijberglogo_ffffff.svg" onerror="this.onerror=null; this.src='/img/koffijberglogo_ffffff.png'" /></td></tr></table></div>
   <div id="nonsplash">
       <script>document.getElementById('nonsplash').style.display = 'none';</script>
@@ -207,7 +207,10 @@ if(getParameterByName('url')) {
 </header>
 
     <a class="arrow bounce" href="#over-ons"></a>
-    <div class="intro"><div><div>
+
+
+    <!-- OLD IMAGE HEADER -->
+    <!--<div class="intro"><div><div>
   		<div class="container">
   			<div class="row">
   		    	<div class="col-md-8"></div>
@@ -254,12 +257,114 @@ Wij staan bekend om de kwaliteit van onze knip- en kleurbehandelingen. Onze half
                         </div>
                 </article>
             
-            </td></tr></table>
+            
   		    	</div>
-  		    </div>
-  		</div>
-    </div></div></div>
+  		    
+  		
+    -->
 
+
+    <!-- NEW VIDEO HEADER -->
+    <div class="intro">
+      <div style="background: none;">
+        <div style="height: 800px; position: relative; overflow: hidden; background: rgba(195, 195, 195, 0.8);">
+          <div id="muteYouTubeVideoPlayer"></div>
+
+          <script async src="https://www.youtube.com/iframe_api"></script>
+          <script>
+           var youtubeids = ['9VrX0epB2rY', '9VrX0epB2rY', '9VrX0epB2rY'];
+           var random_id = youtubeids[Math.floor(Math.random() * youtubeids.length)];
+           function onYouTubeIframeAPIReady() {
+            var player;
+            player = new YT.Player('muteYouTubeVideoPlayer', {
+              videoId: random_id, // YouTube Video ID
+              width: 560,           // Player width (in px)
+              height: 316,          // Player height (in px)
+              playerVars: {
+                autoplay: 1,        // Auto-play the video on load
+                controls: 0,        // Show pause/play buttons in player
+                showinfo: 0,        // Hide the video title
+                modestbranding: 1,  // Hide the Youtube Logo
+                loop: 1,            // Run the video in a loop
+                fs: 0,              // Hide the full screen button
+                cc_load_policy: 0,  // Hide closed captions
+                iv_load_policy: 3,  // Hide the Video Annotations
+                autohide: 1         // Hide video controls when playing
+              },
+              events: {
+                onReady: function(e) {
+                  e.target.mute();
+                },
+                onStateChange: function(e) {
+                  if (e.data === YT.PlayerState.ENDED) {
+                    player.playVideo(); 
+                  }
+                }
+              }
+            });
+           }
+          
+           // Written by @labnol
+          </script>
+          <style>
+            #muteYouTubeVideoPlayer {width: 100%; height: 300%; position: absolute; left: 50%; top: calc(50% + 73px); transform: translate(-50%, -50%); z-index: -1;}
+            @media only screen and (max-width: 1422px) {
+              #muteYouTubeVideoPlayer {width: 300%; height: 100%;}
+            }
+          </style>
+          <div class="container" style="display: block">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 highlight">
+                <table cellpadding="0" cellspacing="0"><tr><td>
+                
+                    <article id="n1">
+                            <header class="post-header">
+                              <h1 class="post-title">Award-winning topkapper</h1>
+                            </header>
+                          
+                            <div class="post-content">
+                                  <p>In het verleden hebben wij onder andere de Global Salon Business Award gewonnen en in 2013 de Coiffure Award. Kapsalon Koffijberg in Amsterdam staat al 40 jaar voor vakmanschap, creativiteit en vernieuwing op het gebied van kapsels, haarkleuringen en styling. Onze trendsettende kappers en kapsters blinken uit in technische vakkundigheid en in persoonlijke aandacht voor hun klanten.</p>
+                                  <a href="/contact" class="btn btn-primary">Maak een afspraak</a><br />
+                                  <a href="tel:020-6732374" class="btn mobile">bel 020-6732374</a>
+                                  <span class="btn desktop">bel 020-6732374</span>
+                            </div>
+                    </article>
+                
+                    <article id="n2">
+                            <header class="post-header">
+                              <h1 class="post-title">Color I-dentity</h1>
+                            </header>
+                          
+                            <div class="post-content">
+                                  <p>Wil je een haarkleur die mooi past bij de kleur van je huid of ogen? Wil je sterker of zakelijker overkomen? Of je geverfde haar laten uitgroeien naar je natuurlijke grijze haar, maar dan wel sprankelend en eigentijds? Aan de hand van een korte vragenlijst, moodboards en kleurkragen adviseren wij je een passende haarkleur die aansluit bij jouw lifestyle.</p>
+                                  <a href="/contact" class="btn btn-primary">Maak een afspraak</a><br />
+                                  <a href="tel:020-6732374" class="btn mobile">bel 020-6732374</a>
+                                  <span class="btn desktop">bel 020-6732374</span>
+                            </div>
+                    </article>
+                
+                    <article id="n3">
+                            <header class="post-header">
+                              <h1 class="post-title">Style I-dentity</h1>
+                            </header>
+                          
+                            <div class="post-content">
+                                  <p>Denk je na over een nieuw kapsel? Of wil je je haar een meer eigentijdse look geven die past bij jouw lifestyle? Kom dan bij ons langs. 
+Wij staan bekend om de kwaliteit van onze knip- en kleurbehandelingen. Onze halfjaarlijkse nieuwe collecties zijn te zien in nationale en internationale vakbladen. Wij zorgen ervoor dat het nieuwe model en de kleur van je haar elkaar versterken en je uitstraling een nieuwe boost geven.</p>
+                                  <a href="/contact" class="btn btn-primary">Maak een afspraak</a><br />
+                                  <a href="tel:020-6732374" class="btn mobile">bel 020-6732374</a>
+                                  <span class="btn desktop">bel 020-6732374</span>
+                            </div>
+                    </article>
+                
+                </td></tr></table>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="about" id="over-ons">
       <div class="container">
@@ -741,12 +846,10 @@ Wij staan bekend om de kwaliteit van onze knip- en kleurbehandelingen. Onze half
                         </header>
                                               
                         <div class="post-content"><div class="editable" data-cms-source="/_layouts/home.html" data-cms-index="12">
-  <p>Heb je sterk gekruld en/of mixed hair en ben je op zoek naar een kapper die professioneel om kan gaan met je krullen? Dan ben je bij ons aan het goede adres: Koffijberg Hairdressers is al jaren d&egrave; kapsalon voor mooi natuurlijk krullend haar; het zit in onze genen. Wij snappen dat je sterk gekruld en/of mixed hair anders knipt en behandelt dan steil en fijn haar:</p>
-  <p><img src="/uploads/iva-mixed-hair---knip.jpg" /></p>
+  <p>Heb je sterk gekruld en/of mixed hair en ben je op zoek naar een kapper die professioneel om kan gaan met je krullen? Dan ben je bij ons aan het goede adres: Koffijberg Hairdressers is al jaren d&egrave; kapsalon voor mooi natuurlijk krullend haar; het zit in onze genen. Wij snappen dat je sterk gekruld en/of mixed hair anders knipt en behandelt dan steil en fijn haar.</p>
   <p>Onbehandeld mixed hair hoef je niet vaak te wassen. Het heeft wel regelmatig een masker of haarkuur nodig. Je haar is van nature droger dan andere soorten haar en het&nbsp; heeft heel veel behoefte aan vocht en olie. Onze speciale mixed hair productlijnen zitten daarom boordevol voedende en hydraterende bestanddelen. Er zitten veel meer oli&euml;n en moisturizers in dan in producten voor Europees of Aziatisch haar.</p>
-  <p><img src="/uploads/kapper-mixed-hair-krullen-heer.jpg" /></p>
+  <p><img src="/uploads/krullend-haar.jpg" /></p>
   <p>Voordeel van mixed hair is dat je je haar maar zo&rsquo;n 1 x in de vier maanden hoeft te knippen. Jij en wij weten dat er bij het knippen maar een snippertje vanaf mag!! Elke centimeter eraf, lijkt wel 5 centimeter korter als je haar is opgedroogd." Na het knippen, defini&euml;ren wij jouw krullen met de juiste producten. Voor het kleuren van je haar (puntkleuring, splitcolor etc.) gebruiken we de milde producten van L&rsquo;Oreal. Zij hebben ook ammonia vrije kleurproducten. En wil je er extra mooi uitzien? Dan zorgen we ervoor dat je haar supermooi gef&ouml;hnd en getangd wordt door een van onze professionele kappers.</p>
-  <p><img src="/uploads/kapper-mixed-hair-krullen-1.jpg" /></p>
 </div>
                               <a href="/contact" class="btn btn-primary">Maak een afspraak</a>
                         </div>
@@ -762,8 +865,8 @@ Wij staan bekend om de kwaliteit van onze knip- en kleurbehandelingen. Onze half
                                               
                         <div class="post-content"><div class="editable" data-cms-source="/_layouts/home.html" data-cms-index="14">
   <p><img src="/img/willemijn1.jpg" /></p>
-  <p>Kimm Koffijberg heeft een uniek concept ontwikkeld. Voor vrouwen met gekleurd haar die op een mooie manier hun grijze haar willen laten uitgroeien.</p>
-  <p>&lsquo;Shining grey&rsquo; verloopt via een subtiel persoonlijk stappenplan en duurt gemiddeld een jaar. Elke 3 of 4 maanden bezoek je onze kapsalon. Op een uitgekiende manier plaatsen onze kappers en kapsters bij ieder bezoek low- en highlights om zo het grijze en het gekleurde haar steeds meer te blenden. Jij en je omgeving wennen zo geleidelijk aan je nieuwe grijze haarkleur, terwijl onze kappers en kapsters de kwaliteit en de kleur van het haar goed bewaken. Na een jaar komt een vrouw tevoorschijn met een sprankelende grijze en eigentijdse look.</p>
+  <p>Kimm Koffijberg heeft een uniek concept ontwikkeld. Voor vrouwen met gekleurd haar die op een mooie manier hun grijze haar willen laten uitgroeien. &lsquo;Shining grey&rsquo; verloopt via een subtiel persoonlijk stappenplan en duurt gemiddeld een jaar. Elke 3 of 4 maanden bezoek je onze kapsalon. Op een uitgekiende manier plaatsen onze kappers en kapsters bij ieder bezoek low- en highlights om zo het grijze en het gekleurde haar steeds meer te blenden. Jij en je omgeving wennen zo geleidelijk aan je nieuwe grijze haarkleur, terwijl onze kappers en kapsters de kwaliteit en de kleur van het haar goed bewaken. Na een jaar komt een vrouw tevoorschijn met een sprankelende grijze en eigentijdse look.</p>
+  <br />
   <h2>100% Plantaardige Kleuring</h2>
   <p><img src="/uploads1/botanea.jpg" /></p>
   <p>Bij ons in de salon kleuren we nu ook met <a target="_blank" href="https://www.youtube.com/watch?v=khs3TE75YFA">Botanea</a>. Botanea is een 100% Plantaardige Professionele Haarkleur samengesteld uit slechts drie natuurlijke ingredi&euml;nten: Cassia, Henna en Indigo, zorgvuldig verbouwd en geoogst in India. <a target="_blank" href="/contact">Meer weten?</a></p>
@@ -796,34 +899,14 @@ Wij staan bekend om de kwaliteit van onze knip- en kleurbehandelingen. Onze half
                     </header>
                   
                     <div class="post-content">
-                          <script>
-// instafeed.js
-// Generated by CoffeeScript 1.9.3
-
-(function(){var e;e=function(){function e(e,t){var n,r;this.options={target:"instafeed",get:"popular",resolution:"thumbnail",sortBy:"none",links:!0,mock:!1,useHttp:!1};if(typeof e=="object")for(n in e)r=e[n],this.options[n]=r;this.context=t!=null?t:this,this.unique=this._genKey()}return e.prototype.hasNext=function(){return typeof this.context.nextUrl=="string"&&this.context.nextUrl.length>0},e.prototype.next=function(){return this.hasNext()?this.run(this.context.nextUrl):!1},e.prototype.run=function(t){var n,r,i;if(typeof this.options.clientId!="string"&&typeof this.options.accessToken!="string")throw new Error("Missing clientId or accessToken.");if(typeof this.options.accessToken!="string"&&typeof this.options.clientId!="string")throw new Error("Missing clientId or accessToken.");return this.options.before!=null&&typeof this.options.before=="function"&&this.options.before.call(this),typeof document!="undefined"&&document!==null&&(i=document.createElement("script"),i.id="instafeed-fetcher",i.src=t||this._buildUrl(),n=document.getElementsByTagName("head"),n[0].appendChild(i),r="instafeedCache"+this.unique,window[r]=new e(this.options,this),window[r].unique=this.unique),!0},e.prototype.parse=function(e){var t,n,r,i,s,o,u,a,f,l,c,h,p,d,v,m,g,y,b,w,E,S,x,T,N,C,k,L,A,O,M,_,D;if(typeof e!="object"){if(this.options.error!=null&&typeof this.options.error=="function")return this.options.error.call(this,"Invalid JSON data"),!1;throw new Error("Invalid JSON response")}if(e.meta.code!==200){if(this.options.error!=null&&typeof this.options.error=="function")return this.options.error.call(this,e.meta.error_message),!1;throw new Error("Error from Instagram: "+e.meta.error_message)}if(e.data.length===0){if(this.options.error!=null&&typeof this.options.error=="function")return this.options.error.call(this,"No images were returned from Instagram"),!1;throw new Error("No images were returned from Instagram")}this.options.success!=null&&typeof this.options.success=="function"&&this.options.success.call(this,e),this.context.nextUrl="",e.pagination!=null&&(this.context.nextUrl=e.pagination.next_url);if(this.options.sortBy!=="none"){this.options.sortBy==="random"?M=["","random"]:M=this.options.sortBy.split("-"),O=M[0]==="least"?!0:!1;switch(M[1]){case"random":e.data.sort(function(){return.5-Math.random()});break;case"recent":e.data=this._sortBy(e.data,"created_time",O);break;case"liked":e.data=this._sortBy(e.data,"likes.count",O);break;case"commented":e.data=this._sortBy(e.data,"comments.count",O);break;default:throw new Error("Invalid option for sortBy: '"+this.options.sortBy+"'.")}}if(typeof document!="undefined"&&document!==null&&this.options.mock===!1){m=e.data,A=parseInt(this.options.limit,10),this.options.limit!=null&&m.length>A&&(m=m.slice(0,A)),u=document.createDocumentFragment(),this.options.filter!=null&&typeof this.options.filter=="function"&&(m=this._filter(m,this.options.filter));if(this.options.template!=null&&typeof this.options.template=="string"){f="",d="",w="",D=document.createElement("div");for(c=0,N=m.length;c<N;c++){h=m[c],p=h.images[this.options.resolution];if(typeof p!="object")throw o="No image found for resolution: "+this.options.resolution+".",new Error(o);E=p.width,y=p.height,b="square",E>y&&(b="landscape"),E<y&&(b="portrait"),v=p.url,l=window.location.protocol.indexOf("http")>=0,l&&!this.options.useHttp&&(v=v.replace(/https?:\/\//,"//")),d=this._makeTemplate(this.options.template,{model:h,id:h.id,link:h.link,type:h.type,image:v,width:E,height:y,orientation:b,caption:this._getObjectProperty(h,"caption.text"),likes:h.likes.count,comments:h.comments.count,location:this._getObjectProperty(h,"location.name")}),f+=d}D.innerHTML=f,i=[],r=0,n=D.childNodes.length;while(r<n)i.push(D.childNodes[r]),r+=1;for(x=0,C=i.length;x<C;x++)L=i[x],u.appendChild(L)}else for(T=0,k=m.length;T<k;T++){h=m[T],g=document.createElement("img"),p=h.images[this.options.resolution];if(typeof p!="object")throw o="No image found for resolution: "+this.options.resolution+".",new Error(o);v=p.url,l=window.location.protocol.indexOf("http")>=0,l&&!this.options.useHttp&&(v=v.replace(/https?:\/\//,"//")),g.src=v,this.options.links===!0?(t=document.createElement("a"),t.href=h.link,t.appendChild(g),u.appendChild(t)):u.appendChild(g)}_=this.options.target,typeof _=="string"&&(_=document.getElementById(_));if(_==null)throw o='No element with id="'+this.options.target+'" on page.',new Error(o);_.appendChild(u),a=document.getElementsByTagName("head")[0],a.removeChild(document.getElementById("instafeed-fetcher")),S="instafeedCache"+this.unique,window[S]=void 0;try{delete window[S]}catch(P){s=P}}return this.options.after!=null&&typeof this.options.after=="function"&&this.options.after.call(this),!0},e.prototype._buildUrl=function(){var e,t,n;e="https://api.instagram.com/v1";switch(this.options.get){case"popular":t="media/popular";break;case"tagged":if(!this.options.tagName)throw new Error("No tag name specified. Use the 'tagName' option.");t="tags/"+this.options.tagName+"/media/recent";break;case"location":if(!this.options.locationId)throw new Error("No location specified. Use the 'locationId' option.");t="locations/"+this.options.locationId+"/media/recent";break;case"user":if(!this.options.userId)throw new Error("No user specified. Use the 'userId' option.");t="users/"+this.options.userId+"/media/recent";break;default:throw new Error("Invalid option for get: '"+this.options.get+"'.")}return n=e+"/"+t,this.options.accessToken!=null?n+="?access_token="+this.options.accessToken:n+="?client_id="+this.options.clientId,this.options.limit!=null&&(n+="&count="+this.options.limit),n+="&callback=instafeedCache"+this.unique+".parse",n},e.prototype._genKey=function(){var e;return e=function(){return((1+Math.random())*65536|0).toString(16).substring(1)},""+e()+e()+e()+e()},e.prototype._makeTemplate=function(e,t){var n,r,i,s,o;r=/(?:\{{2})([\w\[\]\.]+)(?:\}{2})/,n=e;while(r.test(n))s=n.match(r)[1],o=(i=this._getObjectProperty(t,s))!=null?i:"",n=n.replace(r,function(){return""+o});return n},e.prototype._getObjectProperty=function(e,t){var n,r;t=t.replace(/\[(\w+)\]/g,".$1"),r=t.split(".");while(r.length){n=r.shift();if(!(e!=null&&n in e))return null;e=e[n]}return e},e.prototype._sortBy=function(e,t,n){var r;return r=function(e,r){var i,s;return i=this._getObjectProperty(e,t),s=this._getObjectProperty(r,t),n?i>s?1:-1:i<s?1:-1},e.sort(r.bind(this)),e},e.prototype._filter=function(e,t){var n,r,i,s,o;n=[],r=function(e){if(t(e))return n.push(e)};for(i=0,o=e.length;i<o;i++)s=e[i],r(s);return n},e}(),function(e,t){return typeof define=="function"&&define.amd?define([],t):typeof module=="object"&&module.exports?module.exports=t():e.Instafeed=t()}(this,function(){return e})}).call(this);
-
-</script>
-
-
-<script type="text/javascript">
-    var feed = new Instafeed({
-        get: 'user',
-        userId: '1091322215',
-        limit: '5',
-        sortBy: 'most-recent',
-        resolution: 'standard_resolution',
-        accessToken: '1091322215.d4cc436.d54ebe060cb44ba689c5b50e81afdb71',
-        clientId: 'd4cc436e8a1843dfa71798b44d5b9266',
-        template: '<a href="{{link}}" target="_blank" style="background: url({{image}}) center center / cover;"></a>'
-    });
-    feed.run();
-</script>
-<style>
-    #instafeed {overflow: auto; margin-left: -1%;}
-    #instafeed a {float: left; display: block; margin: 0 0 1% 1%; width: 19%; padding-bottom: 19%;}
-</style>
-<p id="instafeed"></p>
-                          <a href="https://www.instagram.com/koffijberghairdressers/" class="btn btn-primary" target="_blank">Check ons Instagram account</a>
+                        <div id="instafeed">
+                          <a href="https://www.instagram.com/koffijberghairdressers/" style="background: url('/uploads/instagram/post1.jpg') center center / cover;"></a><a href="https://www.instagram.com/koffijberghairdressers/" style="background: url('/uploads/instagram/post2.jpg') center center / cover;"></a><a href="https://www.instagram.com/koffijberghairdressers/" style="background: url('/uploads/instagram/post3.jpg') center center / cover;"></a><a href="https://www.instagram.com/koffijberghairdressers/" style="background: url('/uploads/instagram/post4.jpg') center center / cover;"></a><a href="https://www.instagram.com/koffijberghairdressers/" style="background: url('/uploads/instagram/post5.jpg') center center / cover;"></a>
+                        </div>
+                        <style>
+                          #instafeed {overflow: auto; margin-left: -1%; margin-bottom: 20px;}
+                          #instafeed a {float: left; display: block; margin: 0 0 1% 1%; width: 19%; padding-bottom: 19%;}
+                        </style>
+                        <a href="https://www.instagram.com/koffijberghairdressers/" class="btn btn-primary" target="_blank">Check ons Instagram account</a>
                     </div>
                   
             </article>
@@ -964,7 +1047,7 @@ fNewPDFWindows()
 externalLinks();
     </script>
 
-</div>
+
   </body>
 
 </html>
