@@ -103,8 +103,11 @@ body.iOS .salon3 {
   top: 660px;
   z-index: 1; }
 
-#review {
-  display: none; }
+#review > div:last-child {
+  width: 160px;
+  height: 120px;
+  background: white;
+  text-align: center; }
 
 .visualnews a, .visualnews p a:hover {
   text-decoration: none; }
