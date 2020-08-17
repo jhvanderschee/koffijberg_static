@@ -107,12 +107,21 @@ body.iOS .salon3 {
   width: 160px;
   height: 115px;
   background: #222;
+  padding-right: 4px;
   text-align: center;
   color: #fff;
   font-family: 'Jost';
   font-weight: 300;
   font-size: 15px;
-  line-height: 1.7em; }
+  line-height: 1.7em;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
+
+#review:hover > div:last-child {
+  background: #5e2d83; }
 
 #review > div:last-child img {
   margin: 18px 15px 12px;
