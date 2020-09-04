@@ -26,7 +26,7 @@
    <!-- Facebook and Twitter integration -->
    <meta property="og:title" content="Over ons"/>
    
-   <meta property="og:url" content="https://www.koffijberg.nl/over-ons/index.html"/>
+   <meta property="og:url" content="https://www.koffijberg.nl/over-ons/"/>
    <meta property="og:type" content="article">
    <meta property="og:site_name" content="Kapper Koffijberg Hairdressers in Amsterdam"/>
    <meta property="og:description" content="TOPKAPPER IN AMSTERDAMWij zijn Koffijberg Hairdressers en onze aanpak staat al bijna 45 jaar voor vakmanschap, creativiteit en vernieuwing op het gebied van ..."/>
@@ -35,7 +35,7 @@
    <meta name="twitter:site" content="https://twitter.com/KoffijbergHair">
    <meta name="twitter:title" content="Over ons" />
    
-   <meta name="twitter:url" content="https://www.koffijberg.nl/over-ons/index.html" />
+   <meta name="twitter:url" content="https://www.koffijberg.nl/over-ons/" />
    <meta name="twitter:description" content="TOPKAPPER IN AMSTERDAMWij zijn Koffijberg Hairdressers en onze aanpak staat al bijna 45 jaar voor vakmanschap, creativiteit en vernieuwing op het gebied van ..." />
 
 
@@ -56,7 +56,7 @@ function setimage() {
     document.getElementById('image').src = '//images.weserv.nl/?url=www.koffijberg.nl'+url+'&w=1000&h=1000';
 }
 function closeimage() {
-    document.location.href = '/over-ons/index.html';
+    document.location.href = '/over-ons/';
 }
 
 function goNext(e) {
@@ -79,7 +79,7 @@ function goNext(e) {
     }
     if(current<(imgArray.length-1)) next = (current+1);
     else next = 0;
-    window.location = '/over-ons/index.html?url='+imgArray[next];
+    window.location = '/over-ons/?url='+imgArray[next];
 }
 function goPrev(e) {
     if (!e)
@@ -101,7 +101,7 @@ function goPrev(e) {
     }    
     if(current>0) prev = (current-1);
     else prev = (imgArray.length-1);
-    window.location = '/over-ons/index.html?url='+imgArray[prev];
+    window.location = '/over-ons/?url='+imgArray[prev];
 }
 
 	</script>

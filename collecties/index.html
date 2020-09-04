@@ -26,7 +26,7 @@
    <!-- Facebook and Twitter integration -->
    <meta property="og:title" content="Onze collecties"/>
    
-   <meta property="og:url" content="https://www.koffijberg.nl/collecties/index.html"/>
+   <meta property="og:url" content="https://www.koffijberg.nl/collecties/"/>
    <meta property="og:type" content="article">
    <meta property="og:site_name" content="Kapper Koffijberg Hairdressers in Amsterdam"/>
    <meta property="og:description" content="Kimm ontwikkelt ieder halfjaar ook een eigen collectie voor Kapsalon Koffijberg waarin zij de door haar zelf ontwikkelde nieuwste kleur- en kniptechnieken to..."/>
@@ -35,7 +35,7 @@
    <meta name="twitter:site" content="https://twitter.com/KoffijbergHair">
    <meta name="twitter:title" content="Onze collecties" />
    
-   <meta name="twitter:url" content="https://www.koffijberg.nl/collecties/index.html" />
+   <meta name="twitter:url" content="https://www.koffijberg.nl/collecties/" />
    <meta name="twitter:description" content="Kimm ontwikkelt ieder halfjaar ook een eigen collectie voor Kapsalon Koffijberg waarin zij de door haar zelf ontwikkelde nieuwste kleur- en kniptechnieken to..." />
 
 
@@ -56,7 +56,7 @@ function setimage() {
     document.getElementById('image').src = '//images.weserv.nl/?url=www.koffijberg.nl'+url+'&w=1000&h=1000';
 }
 function closeimage() {
-    document.location.href = '/collecties/index.html';
+    document.location.href = '/collecties/';
 }
 
 function goNext(e) {
@@ -79,7 +79,7 @@ function goNext(e) {
     }
     if(current<(imgArray.length-1)) next = (current+1);
     else next = 0;
-    window.location = '/collecties/index.html?url='+imgArray[next];
+    window.location = '/collecties/?url='+imgArray[next];
 }
 function goPrev(e) {
     if (!e)
@@ -101,7 +101,7 @@ function goPrev(e) {
     }    
     if(current>0) prev = (current-1);
     else prev = (imgArray.length-1);
-    window.location = '/collecties/index.html?url='+imgArray[prev];
+    window.location = '/collecties/?url='+imgArray[prev];
 }
 
 	</script>

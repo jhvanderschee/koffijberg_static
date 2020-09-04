@@ -26,7 +26,7 @@
    <!-- Facebook and Twitter integration -->
    <meta property="og:title" content="Contact"/>
    
-   <meta property="og:url" content="https://www.koffijberg.nl/contact/index.html"/>
+   <meta property="og:url" content="https://www.koffijberg.nl/contact/"/>
    <meta property="og:type" content="article">
    <meta property="og:site_name" content="Kapper Koffijberg Hairdressers in Amsterdam"/>
    <meta property="og:description" content="Wij helpen je graag met een professioneel en persoonlijk advies. Vul onderstaand formulier in en wij zullen zo snel mogelijk contact met je opnemen. Je kunt ..."/>
@@ -35,7 +35,7 @@
    <meta name="twitter:site" content="https://twitter.com/KoffijbergHair">
    <meta name="twitter:title" content="Contact" />
    
-   <meta name="twitter:url" content="https://www.koffijberg.nl/contact/index.html" />
+   <meta name="twitter:url" content="https://www.koffijberg.nl/contact/" />
    <meta name="twitter:description" content="Wij helpen je graag met een professioneel en persoonlijk advies. Vul onderstaand formulier in en wij zullen zo snel mogelijk contact met je opnemen. Je kunt ..." />
 
 
@@ -56,7 +56,7 @@ function setimage() {
     document.getElementById('image').src = '//images.weserv.nl/?url=www.koffijberg.nl'+url+'&w=1000&h=1000';
 }
 function closeimage() {
-    document.location.href = '/contact/index.html';
+    document.location.href = '/contact/';
 }
 
 function goNext(e) {
@@ -79,7 +79,7 @@ function goNext(e) {
     }
     if(current<(imgArray.length-1)) next = (current+1);
     else next = 0;
-    window.location = '/contact/index.html?url='+imgArray[next];
+    window.location = '/contact/?url='+imgArray[next];
 }
 function goPrev(e) {
     if (!e)
@@ -101,7 +101,7 @@ function goPrev(e) {
     }    
     if(current>0) prev = (current-1);
     else prev = (imgArray.length-1);
-    window.location = '/contact/index.html?url='+imgArray[prev];
+    window.location = '/contact/?url='+imgArray[prev];
 }
 
 	</script>

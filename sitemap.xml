@@ -142,7 +142,7 @@
     </url>
   
     <url>
-      <loc>https://www.koffijberg.nl/nieuws/2019/05/15/botanea---puur-natuur/</loc>
+      <loc>https://www.koffijberg.nl/nieuws/2019/05/15/botanea-puur-natuur/</loc>
       <lastmod>2019-05-15T00:00:00+00:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
@@ -177,7 +177,7 @@
     </url>
   
     <url>
-      <loc>https://www.koffijberg.nl/nieuws/2019/03/11/tips-en-tricks---weekblad-vriendin/</loc>
+      <loc>https://www.koffijberg.nl/nieuws/2019/03/11/tips-en-tricks-weekblad-vriendin/</loc>
       <lastmod>2019-03-11T00:00:00+00:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
@@ -205,7 +205,7 @@
     </url>
   
     <url>
-      <loc>https://www.koffijberg.nl/nieuws/2019/02/20/haren-wassen--kleuren-met-de-natuur/</loc>
+      <loc>https://www.koffijberg.nl/nieuws/2019/02/20/haren-wassen-kleuren-met-de-natuur/</loc>
       <lastmod>2019-02-20T00:00:00+00:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
@@ -219,7 +219,7 @@
     </url>
   
     <url>
-      <loc>https://www.koffijberg.nl/nieuws/2019/01/24/d-i-y--easy-up-do/</loc>
+      <loc>https://www.koffijberg.nl/nieuws/2019/01/24/d-i-y-easy-up-do/</loc>
       <lastmod>2019-01-24T00:00:00+00:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
@@ -233,14 +233,14 @@
     </url>
   
     <url>
-      <loc>https://www.koffijberg.nl/nieuws/2019/01/16/interview-mirror-mirror---unikorn-haar/</loc>
+      <loc>https://www.koffijberg.nl/nieuws/2019/01/16/interview-mirror-mirror-unikorn-haar/</loc>
       <lastmod>2019-01-16T00:00:00+00:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
     </url>
   
     <url>
-      <loc>https://www.koffijberg.nl/nieuws/2019/01/15/d-i-y----grove-krullen/</loc>
+      <loc>https://www.koffijberg.nl/nieuws/2019/01/15/d-i-y-grove-krullen/</loc>
       <lastmod>2019-01-15T00:00:00+00:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
@@ -359,7 +359,7 @@
     </url>
   
     <url>
-      <loc>https://www.koffijberg.nl/nieuws/2018/03/23/mooi-glanzend--stijl-haar/</loc>
+      <loc>https://www.koffijberg.nl/nieuws/2018/03/23/mooi-glanzend-stijl-haar/</loc>
       <lastmod>2018-03-23T00:00:00+00:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
@@ -562,14 +562,14 @@
     </url>
   
     <url>
-      <loc>https://www.koffijberg.nl/nieuws/2017/01/19/blogger-marlieke-in-de-salon-/</loc>
+      <loc>https://www.koffijberg.nl/nieuws/2017/01/19/blogger-marlieke-in-de-salon/</loc>
       <lastmod>2017-01-19T00:00:00+00:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
     </url>
   
     <url>
-      <loc>https://www.koffijberg.nl/nieuws/2017/01/18/fashionlab--koffijberg/</loc>
+      <loc>https://www.koffijberg.nl/nieuws/2017/01/18/fashionlab-koffijberg/</loc>
       <lastmod>2017-01-18T00:00:00+00:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
@@ -1437,11 +1437,11 @@
   
   
     
-      <url>
-        <loc>https://www.koffijberg.nl/nieuws/archief.html</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-       </url>
+  
+    
+  
+    
+  
     
   
     
@@ -1449,91 +1449,19 @@
     
   
     
-      <url>
-        <loc>https://www.koffijberg.nl/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-       </url>
+  
     
   
     
-      <url>
-        <loc>https://www.koffijberg.nl/copyright/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-       </url>
+  
     
   
     
-      <url>
-        <loc>https://www.koffijberg.nl/privacy/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-       </url>
+  
     
   
     
-      <url>
-        <loc>https://www.koffijberg.nl/disclaimer/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-       </url>
-    
   
-    
-      <url>
-        <loc>https://www.koffijberg.nl/collecties/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-       </url>
-    
-  
-    
-      <url>
-        <loc>https://www.koffijberg.nl/aanpak/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-       </url>
-    
-  
-    
-      <url>
-        <loc>https://www.koffijberg.nl/nieuws/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-       </url>
-    
-  
-    
-      <url>
-        <loc>https://www.koffijberg.nl/contact/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-       </url>
-    
-  
-    
-      <url>
-        <loc>https://www.koffijberg.nl/contact/nieuwsbrief/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-       </url>
-    
-  
-    
-      <url>
-        <loc>https://www.koffijberg.nl/contact/bedankt/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-       </url>
-    
-  
-    
-      <url>
-        <loc>https://www.koffijberg.nl/over-ons/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-       </url>
     
   
     
