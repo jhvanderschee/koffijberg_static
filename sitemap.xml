@@ -1237,6 +1237,12 @@
     </url>
   
     <url>
+      <loc>https://www.koffijberg.nl/team/serra/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
       <loc>https://www.koffijberg.nl/team/valerie/</loc>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
