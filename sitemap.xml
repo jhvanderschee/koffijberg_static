@@ -1195,6 +1195,12 @@
     </url>
   
     <url>
+      <loc>https://www.koffijberg.nl/team/havvanur/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
       <loc>https://www.koffijberg.nl/team/jennyfer/</loc>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
