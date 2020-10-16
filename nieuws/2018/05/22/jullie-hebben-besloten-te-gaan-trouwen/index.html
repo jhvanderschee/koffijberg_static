@@ -43,75 +43,15 @@
 	if (screen.width < 450) {
 	  document.getElementById("viewport").setAttribute("content", "width=450");
 	}
-	
-function getParameterByName(name) {
-    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-        results = regex.exec(location.search);
-    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-}
-function setimage() {
-    var url = getParameterByName('url');
-    document.getElementById('lightbox').style.display = 'table';
-    document.getElementById('image').src = '//images.weserv.nl/?url=www.koffijberg.nl'+url+'&w=1000&h=1000';
-}
-function closeimage() {
-    document.location.href = '/nieuws/2018/05/22/jullie-hebben-besloten-te-gaan-trouwen/';
-}
+  </script>
 
-function goNext(e) {
-    if (!e)
-      e = window.event;
-
-    //IE9 & Other Browsers
-    if (e.stopPropagation) {
-      e.stopPropagation();
-    }
-    //IE8 and Lower
-    else {
-      e.cancelBubble = true;
-    }
-    var current,next;
-    var imgArray = new Array();
-    
-    for (i = 0; i < imgArray.length; i++) { 
-        if(getParameterByName('url')==imgArray[i]) current = i;
-    }
-    if(current<(imgArray.length-1)) next = (current+1);
-    else next = 0;
-    window.location = '/nieuws/2018/05/22/jullie-hebben-besloten-te-gaan-trouwen/?url='+imgArray[next];
-}
-function goPrev(e) {
-    if (!e)
-      e = window.event;
-
-    //IE9 & Other Browsers
-    if (e.stopPropagation) {
-      e.stopPropagation();
-    }
-    //IE8 and Lower
-    else {
-      e.cancelBubble = true;
-    }
-    var current,prev;
-    var imgArray = new Array();
-    
-    for (i = 0; i < imgArray.length; i++) { 
-        if(getParameterByName('url')==imgArray[i]) current = i;
-    }    
-    if(current>0) prev = (current-1);
-    else prev = (imgArray.length-1);
-    window.location = '/nieuws/2018/05/22/jullie-hebben-besloten-te-gaan-trouwen/?url='+imgArray[prev];
-}
-
-	</script>
-		<script>
-			var script = document.createElement('script');
-			script.setAttribute('type','text/javascript');
-			script.setAttribute('defer','defer');
-			script.setAttribute('src','//widget.salonhub.nl/a/i.js');
-			document.getElementsByTagName('head')[0].appendChild(script);
-		</script>
+  <script>
+    var script = document.createElement('script');
+    script.setAttribute('type','text/javascript');
+    script.setAttribute('defer','defer');
+    script.setAttribute('src','//widget.salonhub.nl/a/i.js');
+    document.getElementsByTagName('head')[0].appendChild(script);
+  </script>
 	<script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-33093003-1']);
@@ -497,14 +437,21 @@ mail: receptie@koffijberg.nl<br>Whatsapp: 06-47 26 86 86<br>Telefoon: 020-673237
 
 
 
-<div id="lightbox" style="width:100%;height:100%;" onclick="closeimage();"><div style="display:table-cell;vertical-align:middle;"><div id="controls"><span onclick="goPrev(event); return false;" id="prevbutton">‹</span><span onclick="goNext(event); return false;" id="nextbutton">›</span></div><span id="closebutton">sluiten</span><img id="image" src="" /></div></div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/js/combined.js"></script>
-    
-    <script>
+<!--<div id="lightbox" style="width:100%;height:100%;" onclick="closeimage();" ><div style="display:table-cell;vertical-align:middle;"><div id="controls"><span onclick="goPrev(event); return false;" id="prevbutton">ª×<5sy</span><span onclick="goNext(event); return false;" id="nextbutton">:</span></div><span id="closebutton">sluiten</span><img id="image" src="" /></div></div>-->
+
+<script type="text/javascript" src="/js/lightbox.js"></script>
+<link rel="stylesheet" href="/css/lightbox.css" />
+
+
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="/js/combined.js"></script>
+
+<script>
 //open external links in a new window
 function externalLinks() {
   for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
