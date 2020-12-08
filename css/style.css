@@ -464,7 +464,7 @@ label { font-weight: normal; }
 
 .post-content img, .post-content iframe { max-width: 100%; }
 
-.post-content img.small { max-height: 300px; width: auto; }
+.post-content img.small { max-height: 200px; width: auto; display: inline-block; margin-bottom: 4px; }
 
 #gallery { padding-top: 10px; padding-bottom: 20px; }
 
