@@ -1368,6 +1368,12 @@
     </url>
   
     <url>
+      <loc>https://www.koffijberg.nl/behandelingen/kerastase-extensioniste-ritueel/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
       <loc>https://www.koffijberg.nl/behandelingen/kerastase-fluideliaste-ritueel/</loc>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
