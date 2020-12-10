@@ -530,7 +530,7 @@ blockquote p { margin-bottom: 5px !important; }
 
 .notificationactive #bottomright_popup { transform: translateY(0%); }
 
-#bottomright_popup .window p { font-family: 'Jost'; font-weight: 300; font-size: 16px; line-height: 1.6em; color: #fff; margin-bottom: 1.2em; }
+#bottomright_popup .window p { font-family: 'Jost'; font-weight: 400; font-size: 16px; line-height: 1.6em; color: #fff; margin-bottom: 1.2em; }
 
 #bottomright_popup .window .close { position: absolute; right: 0; top: 3px; width: 34px; height: 34px; display: block; }
 
