@@ -55,7 +55,7 @@
 
 
 <style>
-.intro.image1 > div {background: #bbb9c5 url('/img/kapper-amsterdam-koffijberg1.jpg') center top no-repeat; height: 800px; }.intro.image1 > div {background: #bbb9c5 url('/img/kapper-amsterdam-koffijberg2.jpg') center top no-repeat; height: 800px; }.intro.image1 > div {background: #bbb9c5 url('/img/kapper-amsterdam-koffijberg3.jpg') center top no-repeat; height: 800px; }.intro.image1 > div {background: #bbb9c5 url('/img/kapper-amsterdam-koffijberg4.jpg') center top no-repeat; height: 800px; }.intro.image1 > div {background: #bbb9c5 url('/img/kapper-amsterdam-koffijberg5.jpg') center top no-repeat; height: 800px; }.intro.image1 > div {background: #bbb9c5 url('/img/kapper-amsterdam-koffijberg6.jpg') center top no-repeat; height: 800px; }.intro.image1 > div {background: #bbb9c5 url('/img/kapper-amsterdam-koffijberg7.jpg') center top no-repeat; height: 800px; }.intro.image1 > div {background: #bbb9c5 url('/img/kapper-amsterdam-koffijberg8.jpg') center top no-repeat; height: 800px; }
+.intro.image1 > div {background: #bbb9c5 url('/img/kapper-amsterdam-koffijberg1.jpg') center top no-repeat; height: 800px; }.intro.image2 > div {background: #bbb9c5 url('/img/kapper-amsterdam-koffijberg2.jpg') center top no-repeat; height: 800px; }.intro.image3 > div {background: #bbb9c5 url('/img/kapper-amsterdam-koffijberg3.jpg') center top no-repeat; height: 800px; }.intro.image4 > div {background: #bbb9c5 url('/img/kapper-amsterdam-koffijberg4.jpg') center top no-repeat; height: 800px; }.intro.image5 > div {background: #bbb9c5 url('/img/kapper-amsterdam-koffijberg5.jpg') center top no-repeat; height: 800px; }.intro.image6 > div {background: #bbb9c5 url('/img/kapper-amsterdam-koffijberg6.jpg') center top no-repeat; height: 800px; }.intro.image7 > div {background: #bbb9c5 url('/img/kapper-amsterdam-koffijberg7.jpg') center top no-repeat; height: 800px; }.intro.image8 > div {background: #bbb9c5 url('/img/kapper-amsterdam-koffijberg8.jpg') center top no-repeat; height: 800px; }
 </style>
 
 	<script type="text/javascript">
@@ -421,7 +421,11 @@ mail: receptie@koffijberg.nl<br>Whatsapp: 06-47 26 86 86<br>Telefoon: 020-673237
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="/js/combined.js"></script>
-
+<script>
+  
+  var rand = Math.floor((Math.random() * 7) + 1);
+  if(rand==1) $('.intro').addClass('image1');if(rand==2) $('.intro').addClass('image2');if(rand==3) $('.intro').addClass('image3');if(rand==4) $('.intro').addClass('image4');if(rand==5) $('.intro').addClass('image5');if(rand==6) $('.intro').addClass('image6');if(rand==7) $('.intro').addClass('image7');if(rand==8) $('.intro').addClass('image8');
+</script>
 
 <script>
 var element = document.querySelector('#bottomright_popup .window .close');
