@@ -162,12 +162,13 @@ fbq('track', 'ViewContent');
 <p>Richard Koffijberg startte in 1976 zijn kaperszaak in een klein brugwachtershuisje aan de Amstelkade in Amsterdam-Zuid. In 1997 verhuisde de kapsalon naar het veel grotere pand aan de overkant op Scheldestraat 8. Daar groeit het familiebedrijf uit tot een van de topkapsalons van Nederland.</p>
 
 <style>
-#timeline {position: relative;}
+h2.timeline {font-size: 30px; margin-bottom: 5px; padding-top: 20px;}
+#timeline {position: relative; max-width: 575px;}
 #timeline > div {
     display: flex; 
     position: relative; 
     flex-direction: row; 
-    padding-left: 70px; 
+    padding-left: 90px; 
     align-items: flex-start;
     padding-bottom: 20px;
 }
@@ -182,7 +183,7 @@ fbq('track', 'ViewContent');
 #timeline > div::after,
 #timeline > div::before {
     content: "";
-    left: 40px; 
+    left: 60px; 
     position: absolute; 
     width: 2px; 
     height: 100%; 
@@ -223,25 +224,25 @@ fbq('track', 'ViewContent');
 }
 </style>
 
-<h2>Sinds 1976...</h2>
+<h2 class="timeline">Sinds 1976...</h2>
 <div id="timeline">
 
     <div class="imageleft">
-        <div style="width: 30%; margin-left: -10%;">
+        <div style="width: 50%; margin-left: -10%;">
             <h3>Amstelkade</h3>
             <p>Richard Koffijberg startte in 1976 zijn salon in een klein brugwachtershuisje aan de Amstelkade in Amsterdam-Zuid.</p>
 
         </div>
-        <img style="width: 80%;" src="/uploads/timeline/1976.jpg" />
+        <img style="width: 60%;" src="/uploads/timeline/1976.jpg" />
     </div>
 
     <div class="">
-        <div style="width: 40%; margin-right: -10%;">
+        <div style="width: 50%; margin-right: -10%;">
             <h3>In 1997</h3>
             <p>verhuisde de salon naar de overkant van de straat, Scheldestraat 8.</p>
 
         </div>
-        <img style="width: 70%;" src="/uploads/timeline/1997.jpg" />
+        <img style="width: 60%;" src="/uploads/timeline/1997.jpg" />
     </div>
 
     <div class="noimage">
