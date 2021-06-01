@@ -98,9 +98,13 @@ body.iOS .salon, body.iOS .salon2, body.iOS .salon3 { background-attachment: scr
 
 #popup td > div { max-width: 1000px; background: white; margin: 0 auto; box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0.3); cursor: default; background: white; }
 
+#popup.narrow td > div { max-width: 500px; }
+
 #popup div .close { position: absolute; right: 15px; background: transparent; z-index: 99; }
 
 @media (min-width: 1055px) { #popup div .close { right: auto; margin-left: 965px; } }
+
+@media (min-width: 555px) { #popup.narrow div .close { margin-left: 465px; } }
 
 #popup div .close a { background: #000; color: white; font-size: 9px; text-decoration: none; border-radius: 20px; height: 40px; width: 40px; line-height: 34px; display: inline-block; text-align: center; position: relative; left: 15px; bottom: 15px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); }
 
