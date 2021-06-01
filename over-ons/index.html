@@ -162,7 +162,7 @@ fbq('track', 'ViewContent');
 <p>Richard Koffijberg startte in 1976 zijn kaperszaak in een klein brugwachtershuisje aan de Amstelkade in Amsterdam-Zuid. In 1997 verhuisde de kapsalon naar het veel grotere pand aan de overkant op Scheldestraat 8. Daar groeit het familiebedrijf uit tot een van de topkapsalons van Nederland.</p>
 
 <style>
-h2.timeline {font-size: 26px; margin-bottom: 5px; padding-top: 20px;}
+h2.timeline {font-size: 23px; margin-bottom: 5px; padding-top: 20px;}
 #timeline {position: relative; max-width: 575px;}
 #timeline > div {
     display: flex; 
@@ -180,6 +180,10 @@ h2.timeline {font-size: 26px; margin-bottom: 5px; padding-top: 20px;}
     flex-direction: row-reverse;
     align-items: center;
 }
+#timeline > div.imagetop {
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
 #timeline > div::after,
 #timeline > div::before {
     content: "";
@@ -187,7 +191,7 @@ h2.timeline {font-size: 26px; margin-bottom: 5px; padding-top: 20px;}
     position: absolute; 
     width: 2px; 
     height: 100%; 
-    background: rgb(34, 34, 34);
+    background: #333;
     top: 45px;
 }
 #timeline > div.noimage::after,
@@ -211,6 +215,9 @@ h2.timeline {font-size: 26px; margin-bottom: 5px; padding-top: 20px;}
     margin: 20px 0;
     font-size: 16px!important;
 }
+#timeline > div:last-child > div {background: #7a8e71;}
+#timeline > div:last-child > div * {color: white;}
+
 #timeline > div > div h3 {font-size: 16px!important;}
 #timeline > div > div * {
     font-style: normal!important;
@@ -295,13 +302,13 @@ h2.timeline {font-size: 26px; margin-bottom: 5px; padding-top: 20px;}
         <img style="width: 55%;" src="/uploads/timeline/2016.jpg" />
     </div>
 
-    <div class="">
-        <div style="width: 100%; margin-right: -5%;">
+    <div class="imagetop">
+        <div style="width: 75%; margin-top: calc(-40px - 5%);">
             <h3>Koffijberg 45 jaar!</h3>
             <p>We kijken met vertrouwen naar de toekomst, dankzij loyale klanten en het fantastische team! Naast de mooie kortingen voor ons 45-jarig jubileum hebben we nog extra verrassingen en lekkernijen klaar liggen.</p>
 
         </div>
-        <img style="width: 75%;" src="/uploads/timeline/2016.jpg" />
+        <img style="width: 100%;" src="/uploads/timeline/2021.jpg" />
     </div>
 
 </div>
