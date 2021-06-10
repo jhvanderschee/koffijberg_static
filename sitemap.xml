@@ -1263,6 +1263,12 @@
     </url>
   
     <url>
+      <loc>https://www.koffijberg.nl/team/kimberly/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
       <loc>https://www.koffijberg.nl/team/kimm-koffijberg/</loc>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
